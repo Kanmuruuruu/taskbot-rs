@@ -1,0 +1,17 @@
+[package]
+name = "taskbot-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Kanmuruuruu"]
+description = "Scheduler Rust to repetitive task with retry, timeout, logs et callbacks."
+license = "MIT OR Apache-2.0"
+repository = "git@github.com:Kanmuruuruu/taskbot-rs.git"
+readme = "README.md"
+keywords = ["scheduler", "tasks", "retry", "timeout", "async", "tokio"]
+categories = ["asynchronous", "task-scheduling"]
+homepage = "https://github.com/Kanmuruuruu/taskbot-rs"
+
+[dependencies]
+tokio = { version = "1.42", features = ["full"] }
+rand = "0.8"
+futures = "0.3"
