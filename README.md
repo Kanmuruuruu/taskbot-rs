@@ -11,22 +11,11 @@ Add the dependency in your `Cargo.toml` :
 ```toml
 [dependencies]
 taskbot-rs = "0.1.0"
-
+```
 
 Example
 
-
-
-
-```
-```
-```
-```
-```
-```
-```
-```
-```
+```rs
 use std::sync::{Arc, Mutex};
 use std::time::Duration;
 use taskbot_rs::{TaskBuilder, Scheduler};
@@ -37,7 +26,6 @@ async fn main() {
     let success_flag = Arc::new(Mutex::new(false));
     let success_clone = success_flag.clone();
 
-    // Crée une tâche avec builder
     let task = TaskBuilder::new("example_task", || {
         tokio::spawn(async {
             println!("Running task...");
@@ -61,6 +49,7 @@ async fn main() {
     let mut scheduler = Scheduler::new();
     scheduler.add(task);
 
-    // Exécute les tâches une fois (ou utiliser run() pour boucle infinie)
     scheduler.run_once().await;
+
 }
+```
