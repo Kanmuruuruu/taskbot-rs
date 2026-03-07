@@ -8,7 +8,7 @@ license = "MIT OR Apache-2.0"
 repository = "https://github.com/Kanmuruuruu/taskbot-rs"
 readme = "README.md"
 keywords = ["tasks", "retry", "timeout", "async", "tokio"]
-categories = ["asynchronous", "task-scheduling"]
+categories = ["asynchronous"]
 homepage = "https://github.com/Kanmuruuruu/taskbot-rs"
 
 [dependencies]
