@@ -7,7 +7,7 @@ description = "Scheduler Rust to repetitive task with retry, timeout, logs et ca
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/Kanmuruuruu/taskbot-rs"
 readme = "README.md"
-keywords = ["scheduler", "tasks", "retry", "timeout", "async", "tokio"]
+keywords = ["tasks", "retry", "timeout", "async", "tokio"]
 categories = ["asynchronous", "task-scheduling"]
 homepage = "https://github.com/Kanmuruuruu/taskbot-rs"
 
